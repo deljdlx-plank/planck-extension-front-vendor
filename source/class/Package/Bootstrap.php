@@ -2,9 +2,10 @@
 
 namespace Planck\Extension\FrontVendor\Package;
 
-use Planck\View\Component;
 
-class Bootstrap extends Component
+use Planck\View\Package;
+
+class Bootstrap extends Package
 {
     public function __construct()
     {

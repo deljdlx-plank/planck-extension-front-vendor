@@ -2,9 +2,10 @@
 
 namespace Planck\Extension\FrontVendor\Package;
 
-use Planck\View\Component;
 
-class Tag extends Component
+use Planck\View\Package;
+
+class Tag extends Package
 {
     public function __construct()
     {

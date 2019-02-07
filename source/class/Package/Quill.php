@@ -2,9 +2,10 @@
 
 namespace Planck\Extension\FrontVendor\Package;
 
-use Planck\View\Component;
 
-class Quill extends Component
+use Planck\View\Package;
+
+class Quill extends Package
 {
     public function __construct()
     {

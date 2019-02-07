@@ -2,9 +2,10 @@
 
 namespace Planck\Extension\FrontVendor\Package;
 
-use Planck\View\Component;
 
-class Planck extends Component
+use Planck\View\Package;
+
+class Planck extends Package
 {
     public function __construct()
     {

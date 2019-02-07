@@ -2,9 +2,10 @@
 
 namespace Planck\Extension\FrontVendor\Package;
 
-use Planck\View\Component;
 
-class JQueryUI extends Component
+use Planck\View\Package;
+
+class JQueryUI extends Package
 {
     public function __construct()
     {

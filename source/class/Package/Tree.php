@@ -2,9 +2,10 @@
 
 namespace Planck\Extension\FrontVendor\Package;
 
-use Planck\View\Component;
 
-class Tree extends Component
+use Planck\View\Package;
+
+class Tree extends Package
 {
     public function __construct()
     {
