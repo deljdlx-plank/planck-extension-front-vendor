@@ -26,6 +26,10 @@ class Planck extends Component
         $this->addJavascriptFile('vendor/planck-front/source/Model/Entity.js', self::RESOURCE_PRIORITY_INCLUDE);
 
 
+        $this->addJavascriptFile('vendor/planck-front/source/Component/FileUploader.js', self::RESOURCE_PRIORITY_INCLUDE);
+        $this->addJavascriptFile('vendor/planck-front/source/Component/DropZone.js', self::RESOURCE_PRIORITY_INCLUDE);
+
+
         parent::__construct();
 
 
