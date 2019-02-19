@@ -23,6 +23,8 @@ class Planck extends Package
         $this->addJavascriptFile('vendor/planck-front/source/Controller.js', self::RESOURCE_PRIORITY_INCLUDE);
         $this->addJavascriptFile('vendor/planck-front/source/Application.js', self::RESOURCE_PRIORITY_INCLUDE);
 
+
+        $this->addJavascriptFile('vendor/planck-front/source/Model.js', self::RESOURCE_PRIORITY_INCLUDE);
         $this->addJavascriptFile('vendor/planck-front/source/Model/Repository.js', self::RESOURCE_PRIORITY_INCLUDE);
         $this->addJavascriptFile('vendor/planck-front/source/Model/Entity.js', self::RESOURCE_PRIORITY_INCLUDE);
         $this->addJavascriptFile('vendor/planck-front/source/Model/EntityDescriptor.js', self::RESOURCE_PRIORITY_INCLUDE);
