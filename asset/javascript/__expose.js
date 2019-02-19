@@ -1,1 +1,1 @@
-console.log('Planck\\Extention\\FrontVendor');
+//console.log('Planck\\Extention\\FrontVendor');
