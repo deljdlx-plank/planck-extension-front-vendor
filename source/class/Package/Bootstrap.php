@@ -10,7 +10,6 @@ class Bootstrap extends Package
     public function __construct()
     {
 
-
         $this->addFrontPackage(new JQuery());
 
         $this->addJavascriptFile('vendor/bootstrap/dist/js/bootstrap.min.js', self::RESOURCE_PRIORITY_REQUIRE);
@@ -19,6 +18,8 @@ class Bootstrap extends Package
 
         parent::__construct();
     }
+
+
 }
 
 
